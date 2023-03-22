@@ -32,24 +32,7 @@ body: Stack(
         
       ),
     ),
-// ClipRRect(
-//   borderRadius: BorderRadius.circular(100),
-//   child: Image(
-//     height: 150,
-//     image: NetworkImage('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.citypng.com%2Fsearch%3Fq%3Dblockchain%2Bpng%2Btransparent&psig=AOvVaw0c8Ic9aqoMQxoFyBqjPgEA&ust=1679549671580000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMiMkpro7v0CFQAAAAAdAAAAABAw'),
-//   ),
-// ),
-    // 1. Local image
-    Container(
-        height: 200,
-        width: double.infinity,
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage('images/imagelogin.png'),
-              fit: BoxFit.cover),
-        ),
-      // Foreground widget here
-    ),
+
     Container(
       padding: EdgeInsets.symmetric(horizontal: 20 ,vertical: 20),
       margin: EdgeInsets.only(top: 200,left: 50,right: 50),
@@ -120,14 +103,7 @@ body: Stack(
         ],
       ),
     ),
-    // Container(
-    //   height: 100,
-    //   width: 100,
-    //   decoration: BoxDecoration(
-    //       color: Colors.black,
-    //       borderRadius: BorderRadius.circular(100)
-    //   ),
-    // ),
+
     Positioned(
       top: 70,
         left:55,
